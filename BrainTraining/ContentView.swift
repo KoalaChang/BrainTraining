@@ -125,6 +125,7 @@ struct ContentView: View {
       },
       label: {
         Text(emoji(for: move))
+          .font(.system(size: 40))
       }
     )
     .buttonStyle(.borderedProminent)
